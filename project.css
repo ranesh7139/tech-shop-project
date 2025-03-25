@@ -65,7 +65,7 @@ section{
     background-color: red;
     width: 150px;
     height: 40px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 .note{
     background-color: red;
