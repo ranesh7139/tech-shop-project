@@ -132,6 +132,9 @@ del{
     color: white;
     border-radius: 2px
 }
+.add-cart-button:hover{
+  background-color: green;
+}
 
 .product-card {
     text-align: start;
