@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .ttd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sv{
+    fill: white;
+    height: 30px;
+    width: 30px;
+  }
+  .spw{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .red-icon{
+    background-color: red;
+    height: 20px;
+    width:  20px;
+    display: flex;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -3px;
+    margin: 5px;
+  }
+  .piler{
+    position: relative;
+  }
+  .tsp{
+    position: absolute;
+    border: 1px solid white;
+    right: 15px;
+    top: 30px;
+    width: 270px;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    display: none;
+    z-index: 5PX;
+    background-color:black;
+  }
+  .piler:hover .tsp{
+    display: block;
+
+  }
+.d-block{
+    height: 380px;
+    width: 450px;
+    margin-left: 550px;
+}
+section{
+    color: white;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.shop-now{
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+.note{
+    background-color: red;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid none;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 15px;
+    top: 23px;
+
+    
+}
+.heading{
+    text-align: center;
+    color: white;
+}
+
+del{
+    color: rgb(53, 52, 52);
+}
+.top-products a{
+    color: white;
+    text-decoration: none;
+}
+.all{
+    background-color: red;
+    
+}
+.top-products :hover{
+    background-color: red;
+    padding: 2px 5px;
+
+}
+  .star-fill{
+    fill: red;
+  }
+  .card-body{
+    display: inline-block;
+    /* display: flex; */
+    
+  }
+.ram{
+    border: 1px solid white;
+}
+.sgs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.h{
+    width: 7%;
+    background-color: rgb(22, 18, 18);
+    
+}
+/* yffhhf */
+.add-cart-button {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(252, 9, 1);
+    color: white;
+    border-radius: 2px
+}
+
+.product-card {
+    text-align: start;
+}
+
+.product-card a {
+    text-decoration: none;
+}
+
+.star-img {
+    fill: rgb(252, 9, 1);
+}
+
+.rating-star {
+    color: rgb(252, 9, 1);
+    font-size: 0.9rem;
+}
+.cards-img {
+    padding: 2rem;
+    transition-property: transform;
+    transition-duration: 10ms;
+    transition-timing-function: ease;
+}
+
+.cards-img:hover {
+    transform: scale(1.2);
+
+}
+/* all cards */
+.all-cards{
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.last{
+    margin-top:250px;
+    text-align: center;
+}
+.Advantages{
+    text-align: center;
+    color: white;
+    margin-top: 200PX;
+}
+.truck{
+    color: white;
+}
+.footer{
+    color: white;
+}
+.email{
+    background-color: black;
+    color: white;
+}
+.Subscribe{
+    background-color: rgb(234, 54, 54);
+    color: white;
+    width: 180px;
+    height: 35px;
+    margin-top: 20px;
+}
+.footer{
+    padding: 60px;
+    gap: 40PX;
+
+}
+.muni{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.last{
+  margin-top: 0;   
+color: white;
+margin-left: 840px;
+margin-top: -50px;
+}
+.prasad{
+text-align: center;
+}
+.raju{
+    margin-top: 230px
+
+}
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .ttd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sv{
+    fill: white;
+    height: 30px;
+    width: 30px;
+  }
+  .spw{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .red-icon{
+    background-color: red;
+    height: 20px;
+    width:  20px;
+    display: flex;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -3px;
+    margin: 5px;
+  }
+  .piler{
+    position: relative;
+  }
+  .tsp{
+    display: none;
+    position: absolute;
+    border: 1px solid white;
+    right: 12px;
+    top: 30px;
+    width: 270px;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    z-index: 5PX;
+    background-color:black;
+  }
+  .piler:hover .tsp,
+  .tsp :hover{
+    display: block;
+
+  }
+  body ::selection{
+    background-color: red;
+    
+  }
+  .Original{
+    margin-left: 70px;
+  }
+  .Discount{
+    margin-left: 95px;
+    color: lightgreen;
+  }
+  .delivery{
+    margin-left: 130px;
+    color: lightgreen;
+  }
+  .Price{
+    margin-left:25px;
+  }
+  .cart-images{
+    height: auto;
+    width: 15rem;
+    margin-top: 30px;
+  }
+  .wireless{
+    margin-left: 50px;
+    margin-top: 35px;
+    color: white;
+  }
+  
+  /* .bi-trash{
+    position: absolute;
+    top: 118px; 130px;
+    left: 700px;
+  } */
+  .kvr{
+     /* position: absolute;  */
+      margin-left:450px; 
+     /* margin-top: 50px;/ */
+
+     /* top: 100px;  */
+     /* position: absolute; */
+     /* top: 118px; 130px; */
+      /* left: 700px; */
+  }
+  .order{
+    position: absolute;
+    top: 30px;
+    margin-left: 950px;
+  }
+  .bi-x{
+    color: red;
+    font-size: medium;
+  }
+  .delete-symbol{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+  }
+  .products-items img{
+    height:auto;
+    width:150px;
+    border: 1px solid gray;
+    display: grid;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .main-image img{
+    height: auto;
+    width: 650px;
+    margin-left: 200px;
+    margin-top: -700px;
+  }
+  .in-stock{
+    margin-left: 850px;
+    margin-top: -700px;
+    color: white;
+  }
+  .Specifications{
+    color: white;
+    margin-left: 400px;
+    margin-top: 250px;
+    gap: 100px;
+
+  }
+  .Reviews:hover{
+    background-color: red;
+    padding: 0 5px;
+  }
+  .Brand{
+    color: white;
+    font-size: large;
+    margin-top: 50px;
+  }
+  .Model{
+    color: white;
+    font-size: large;
+    margin-left: 330px;
+    margin-top: -260px;
+  }
+
+.kadapa-bambu{
+  display: flex;
+  padding:30px ;
+  gap: 150px;
+  margin-left: 140px;
+}
+.demo-search{
+  position: relative;
+}
+.search-popup{
+  position: absolute;
+  color: white;
+  margin-left: 35px;
+  border: 1px solid grey;
+  height: 30px;
+  width: 52px;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+}
+.demo-search:hover .search-popup{
+  display:block
+}
+.demo-cart{
+  position: relative;
+}
+.cart-popup{
+  position: absolute;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  margin-left:25px;
+  height: 30px;
+  width: 50px;
+  display: none;
+}
+.demo-cart:hover .cart-popup{
+  display: block;
+}
