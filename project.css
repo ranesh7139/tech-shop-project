@@ -406,3 +406,6 @@ text-align: center;
 .demo-cart:hover .cart-popup{
   display: block;
 }
+.icons{
+  font-size: larger;
+}
